@@ -1,2 +1,10 @@
 # module-3-challenge-employee-payroll-tracker
-An Employee Payroll Tracker application runs in the browser.
+
+## Description
+  An Employee Payroll Tracker application runs in the browser.
+## Link
+
+## Credits
+  Starter code provider: Xandromus
+  
+  Starter code: https://github.com/coding-boot-camp/curly-potato
