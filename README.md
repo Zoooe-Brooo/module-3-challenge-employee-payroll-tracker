@@ -6,7 +6,7 @@
 ## Link
   https://zoooe-brooo.github.io/module-3-challenge-employee-payroll-tracker/
 
-  ![Screenshot of Deployed Web](./assets/image/employee-payroll-tracker-screenshot.png)
+  ![Screenshot of Deployed Web](./assets/images/employee-payroll-tracker-screenshot.png)
 
 ## Credits
   Starter code provider: Xandromus
