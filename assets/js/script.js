@@ -47,17 +47,21 @@ const displayAverageSalary = function(employeesArray) {
   let totalSalary = employeesArray.reduce((total, employee) => total + employee.salary, 0);
   let averageSalary = totalSalary / employeesArray.length;
 
-  console.log(`The average employee salary between our ${employeesArray.length} employee(s) is ${averageSalary.toLocaleString("en-US", {
-    style: "currency",
-    currency: "USD"
-  })}`);
+  if (Number.isInteger(averageSalary)) {
+    console.log(`The average employee salary between our ${employeesArray.length} employee(s) is A$${averageSalary.toLocaleString("en")}`);
+  } else {
+    console.log(`The average employee salary between our ${employeesArray.length} employee(s) is ${averageSalary.toLocaleString("en", {
+      style: "currency",
+      currency: "AUD"
+    })}`);
+  }
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
   if (employeesArray.length === 0) {
-    console.log("No employees to select.");
+    console.log("No employee to select.");
     return;
   }
 
